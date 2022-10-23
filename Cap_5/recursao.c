@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int recursao(int);
+int recursao(int); //prototipando a função
 
 int main()
 {
@@ -19,6 +19,7 @@ int recursao(int valor)
     } 
     
     //retorno a mesma função, subtraindo o valor atual até chegar 1, definido acima
-    //
+    //quando chega em um a stack retorna os valores e multiplica eles
+    //até chegar no resultado da fatoração
     return total *= recursao(valor - 1);
 }
