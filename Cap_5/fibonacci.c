@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 //desafio sequencia de fibonacci
 int main()
 {
