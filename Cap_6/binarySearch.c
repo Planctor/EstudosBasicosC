@@ -17,16 +17,11 @@ int main()
         meio = ((inicio + final) / 2) - 1;
         
         if (meio == procurado)
-        {
             printf("valor encotrado %d\n", meio);
-        }
         else if (meio < procurado)
-        {
             inicio = valoresArray[meio + 1];
-        }
-        else {
+        else 
             final = valoresArray[meio - 1];
-        } 
     }    
 
     return 0;
